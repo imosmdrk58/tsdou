@@ -31,10 +31,10 @@ export function BannerRecruitment({
     >
       <div className="flex flex-col items-center">
         <span className="text-lg sm:text-xl">
-          Gostaria de fazer parte da nossa staff?
+          Kadromuzun bir parçası olmak ister misiniz?
         </span>
         <span className="text-xl font-bold uppercase sm:text-2xl">
-          Estamos Recrutando
+          İşe Alıyoruz
         </span>
       </div>
       <LinkButton
