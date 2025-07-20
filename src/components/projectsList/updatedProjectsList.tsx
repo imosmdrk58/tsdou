@@ -21,7 +21,7 @@ export function UpdatedProjectsList() {
 
   return (
     <AsyncSection
-      title="Atualizados Recentemente"
+      title="Son Güncellenen"
       isLoading={isLoading}
       className="flex-wrap"
     >
