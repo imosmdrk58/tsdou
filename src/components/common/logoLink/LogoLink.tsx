@@ -18,7 +18,7 @@ export const LogoLink = ({ className }: LogoLinkProps) => {
       href="/"
     >
       <span className="text-appHeaderHighlight">/</span>
-      Tsundoku
+      ErtuScans
       <span className="text-appHeaderHighlight">/</span>
     </Link>
   );
