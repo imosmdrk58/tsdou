@@ -14,7 +14,7 @@ export function FooterBar() {
             href="/"
           >
             <span className="text-appFooterHighlight">/</span>
-            Tsundoku
+            ErtuScans
             <span className="text-appFooterHighlight">/</span>
           </Link>
         </div>
