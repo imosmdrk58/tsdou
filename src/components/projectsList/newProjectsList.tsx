@@ -9,7 +9,7 @@ import { Cover } from '../project/Cover';
 export function NewProjectsList() {
   const { data: recomendationResponse, isLoading } = useRecomendations();
   return (
-    <AsyncSection isLoading={isLoading} title="Indicadas pela Tsun">
+    <AsyncSection isLoading={isLoading} title="Ertu tarafından aday gösterildi">
       {recomendationResponse?.data?.map((item) => (
         <Cover
           key={item.slugObra}
