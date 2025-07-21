@@ -40,11 +40,11 @@ export function HeaderBar({ className, ...props }: HeaderBarProps) {
 
         {!isSearchBarVisible && (
           <div className="mx-4 hidden items-center gap-6 lg:flex">
-            <HeaderLink text="Home" />
-            <HeaderLink text="Novels" action="/novels" />
-            <HeaderLink text="Comics" action="/comics" />
+            <HeaderLink text="Ana Sayfa" />
+            <HeaderLink text="Novel" action="/novels" />
+            <HeaderLink text="Manga" action="/comics" />
             <HeaderLink text="Blog" action="/blog" />
-            <HeaderLink text="Sobre Nós" action="/about" />
+            <HeaderLink text="Hakkımda" action="/about" />
           </div>
         )}
 
@@ -52,7 +52,7 @@ export function HeaderBar({ className, ...props }: HeaderBarProps) {
           <HeaderIcon onClick={() => handleSearchButton()}>
             <MagnifyingGlass size={24} />
           </HeaderIcon>
-          <HeaderIcon action="https://discord.com/invite/x4MyhMn3TQ">
+          <HeaderIcon action="https://discord.com/invite/">
             <DiscordLogo size={24} />
           </HeaderIcon>
           <ThemeToggle />
